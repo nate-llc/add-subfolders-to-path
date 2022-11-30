@@ -20,6 +20,6 @@ def add_subfolders_to_sys_path(current_directory, DEBUG = False):
         print(len(sys.path), '\n')
 
 
-directory = os.getcwd() #use this if you just want the subfolders of your current working directory (as said by os.getcwd()0)
+directory = os.getcwd() #use this if you just want the subfolders of your current working directory (as said by os.getcwd())
 # directory = 'C:\\Users\\natey\\vscode' #this should be the top-most folder you want to add.
 add_subfolders_to_sys_path(directory, DEBUG = True) 
